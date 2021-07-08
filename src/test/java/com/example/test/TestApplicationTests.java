@@ -1,10 +1,10 @@
-package one.digitalinnovation.experts.live3;
+package com.example.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Live3ApplicationTests {
+class TestApplicationTests {
 
 	@Test
 	void contextLoads() {
