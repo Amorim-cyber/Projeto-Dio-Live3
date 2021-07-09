@@ -16,7 +16,7 @@ services:
     container_name: "redis"
     image: redis:3.0.1
     ports:
-      - 6379:6379
+      - "6379:6379"
 
 
 

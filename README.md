@@ -58,3 +58,10 @@ Aprendi sobre a função health do api Actuator que verifica o status do sistema
 Foi criado a classe Product, um repositório, um controller, um método POST e um método GET. Foi nesta parte que coloquei o swagger para realizar a validação dos métodos.<br>
 <br></p>
 
+
+<p style="background-color: rgb(240, 240, 240); border-radius: 3px;">
+<strong>QUARTO COMMIT -> Adicionando um serviço adicional</strong><br><br>
+<strong>Parte 5:</strong><br>
+Aprendi que microsserviços podem estar connectados a bancos de dados distintos dependendo do negócio. Foi implementado uma aplicalçao adicional ao projeto, o shopping-cart, com funcionalidades, entidades e banco de dados proprios<br>
+<br></p>
+
