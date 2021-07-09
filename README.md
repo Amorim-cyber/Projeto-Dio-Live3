@@ -5,6 +5,32 @@
 > Objetivo aqui é aprender cada vez mais sempre! :smiley:
 >
 > Não posso deixar de agradecer a toda a equipe que proporcionou essa oportunidade. Fica aqui minha gratidão!
+>
+> **Observação importante!**
+>
+> Esse projeto está utilizando dependências de versões passadas, caso você esteja tendo dificuldades no andamento deste projeto vou passar aqui a solução que me ajudou a continuar:
+
+
+
+Faça 2 modificações no arquivo build.gradle como a ilustração abaixo:
+
+Na sessão de plugins substitua a versão de springframework.boot pela seguinte linha abaixo
+
+```shell script
+id 'org.springframework.boot' version '2.2.6.RELEASE'
+```
+
+E na sessão de depencencies altere a versão da dependency spring-boot-starter-data-elasticsearch:
+
+```shell script
+implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch:2.4.0'
+```
+
+
+
+Crédito Total ao **Sr.Kokado** por essa solução!
+
+Segue link do artigo dele: https://digitalinnovation.one/artigos/nao-encontra-entitymapper-no-arquivo-elasticsearchconfigjava-do-modulo-product-catalog-de-microservico
 
 
 
@@ -20,8 +46,15 @@ Aprendi um pouco mais sobre o conceito de spring, um framework que controla as i
 
 
 <p style="background-color: rgba(187, 187, 19, 1); border-radius: 3px;">
-<strong>SEGUNDO COMMIT </strong><br><br>
+<strong>SEGUNDO COMMIT -> Configuração do projeto</strong><br><br>
 <strong>Parte 3:</strong><br>
 Aprendi sobre a função health do api Actuator que verifica o status do sistema. Instalamos a imagem virtual do elasticSearch no docker.<br>
+<br></p>
+
+
+<p style="background-color: rgba(255, 154, 203, 1); border-radius: 3px;">
+<strong>TERCEIRO COMMIT -> Colocando entidade + repositório + funcionalidades</strong><br><br>
+<strong>Parte 4:</strong><br>
+Foi criado a classe Product, um repositório, um controller, um método POST e um método GET. Foi nesta parte que coloquei o swagger para realizar a validação dos métodos.<br>
 <br></p>
 
