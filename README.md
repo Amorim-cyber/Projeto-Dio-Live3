@@ -65,3 +65,10 @@ Foi criado a classe Product, um repositório, um controller, um método POST e u
 Aprendi que microsserviços podem estar connectados a bancos de dados distintos dependendo do negócio. Foi implementado uma aplicalçao adicional ao projeto, o shopping-cart, com funcionalidades, entidades e banco de dados proprios<br>
 <br></p>
 
+
+<p style="background-color: rgb(60, 179, 113); border-radius: 3px;">
+<strong>QUINTO COMMIT ->Adicionando o config-server ao projeto</strong><br><br>
+<strong>Parte 6:</strong><br>
+Testando as funcionalidade do Shopping-cart. Introdução ao conceito de Config server, um servidor que controla todas as configurações de cada microsserviço. Criado a aplicação config-server.<br>
+<br></p>
+
