@@ -72,3 +72,10 @@ Aprendi que microsserviços podem estar connectados a bancos de dados distintos 
 Testando as funcionalidade do Shopping-cart. Introdução ao conceito de Config server, um servidor que controla todas as configurações de cada microsserviço. Criado a aplicação config-server.<br>
 <br></p>
 
+
+<p style="background-color: #faebd7; border-radius: 3px;">
+<strong>SEXTO COMMIT ->Reconfigurando product-catalog e shopping-cart</strong><br><br>
+<strong>Parte 7:</strong><br>
+Testando o config-server, reconfigurando product-catalog e shopping-cart.<br>
+<br></p>
+
