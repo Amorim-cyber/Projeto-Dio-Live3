@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Amorim-cyber/Projeto-Dio-Live3-config.git
+          uri: https://github.com/Amorim-cyber/Projeto-Dio-Live3-config

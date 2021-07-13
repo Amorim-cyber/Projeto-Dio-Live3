@@ -79,3 +79,10 @@ Testando as funcionalidade do Shopping-cart. Introdução ao conceito de Config 
 Testando o config-server, reconfigurando product-catalog e shopping-cart.<br>
 <br></p>
 
+
+<p style="background-color: #c0c0c0; border-radius: 3px;">
+<strong>SETIMO COMMIT ->Incorporando o service discovery</strong><br><br>
+<strong>Parte 8:</strong><br>
+Incorporando o service discovery, um intermediário dos requerimentos entre microsserviços. Configurando o service discovery.<br>
+<br></p>
+

@@ -3,7 +3,7 @@ package com.dio.live3.productcatalog.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "product", type = "catalog")
+@Document(indexName = "product")
 public class Product {
 
     @Id
